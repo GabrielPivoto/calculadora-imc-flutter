@@ -1,5 +1,5 @@
 # Calculadora_IMC
 Projeto da disciplina C214
 
-testando
+testando modificação no README
 
