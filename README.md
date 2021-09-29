@@ -10,6 +10,7 @@
 </p>
 
 # Descrição
+
 Nosso projeto é uma calculadora para descobrir o Índice de Massa Corporal(IMC). Através do valor encontrado é possível avaliar se a pessoa se encontra dentro do seu peso ideal em relação à sua altura.
 
 # Pré-Requisitos (Windows)
@@ -43,4 +44,4 @@ Depois de instalar tudo, abra o terminal e digite o seguinte comando:
     Ele vai verificar se está tudo ok. Provavelemente ele irá pedir para aceitar as licenças do Android SDK. Para isso basta digitar:
     > flutter doctor --android-licenses  
 
-    
+
