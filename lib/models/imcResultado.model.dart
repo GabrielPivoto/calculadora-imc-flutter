@@ -8,7 +8,7 @@ enum ImcClassificacao {
 }
 
 class ImcResultado {
-  final Map<ImcClassificacao, List<dynamic>> referencia = {
+  final Map<ImcClassificacao, List<dynamic>> _referencia = {
     ImcClassificacao.Abaixo: [null, 18.4],
     ImcClassificacao.Normal: [18.5, 24.9],
     ImcClassificacao.Sobrepeso: [25, 29.9],
@@ -19,4 +19,11 @@ class ImcResultado {
   final double imc;
 
   ImcResultado(this.imc);
+
+  ImcClassificacao get classificacao => _referencia.entries.firstWhere((faixa) {
+        final min = faixa.value.first ?? -9999999;
+        final max = faixa.value.last ?? 9999999;
+        if (this.imc >= min && this.imc <= max) return true;
+        return false;
+      }).key;
 }

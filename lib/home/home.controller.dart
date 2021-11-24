@@ -6,7 +6,7 @@ class HomeController {
 
   HomeController(this.imcUtil);
 
-  ImcResultado calcular(double peso, double altura) {
+  ImcResultado calcular(int peso, int altura) {
     return imcUtil.calcularImc(peso, altura);
   }
 }
