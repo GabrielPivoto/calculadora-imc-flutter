@@ -1,12 +1,23 @@
 <h1 align="center">🧮 Calculadora de IMC</h1>
 
 <h4 align="center"> 
+	Autores :pencil2:
+</h4>
+
+<p align="center">
+ <a href="https://github.com/DarlanAjlune">Darlan Borges Ajlune</a> •
+ <a href="https://github.com/GabrielPivoto">Gabriel Pivoto Ambrósio</a> •
+ <a href="https://github.com/rairongf">Rairon Ferreira</a> 
+</p>
+
+<h4 align="center"> 
 	🚧  Status do Projeto 🚀 Em construção...  🚧
 </h4>
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
  <a href="#Pré-Requisitos">Pré-Requisitos</a> •
+ <a href="#Como-Rodar">Como Rodar</a> •
 </p>
 
 # Descrição <a name="Descrição"></a>
@@ -49,7 +60,7 @@ Depois de instalar tudo, abra o terminal e digite o seguinte comando:
     ```
 __Caso tenha algum problema na instalação, tem a [documentação](https://docs.flutter.dev/get-started/install/windows) completa do Flutter onde explica passo a passo mais detalhado.__
 
-# Como Rodar (via terminal)
+# Como Rodar (via terminal) <a name="Como-Rodar"></a>
 1. Clonar o repositório:  
     ```
     git clone https://github.com/GabrielPivoto/Calculadora_IMC.git
