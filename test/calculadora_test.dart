@@ -1,6 +1,6 @@
 import 'package:calculadora_imc/imc.util.dart';
 import 'package:calculadora_imc/models/imcResultado.model.dart';
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   ImcUtil imcUtil = new ImcUtil();
