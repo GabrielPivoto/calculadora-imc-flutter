@@ -1,3 +1,5 @@
+![Coverage](https://raw.githubusercontent.com/{you}/{repo}/master/coverage_badge.svg?sanitize=true)
+
 <h1 align="center">🧮 Calculadora de IMC</h1>
 
 <h4 align="center"> 
