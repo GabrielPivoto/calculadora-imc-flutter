@@ -21,6 +21,7 @@
  <a href="#Descrição">Descrição</a> •
  <a href="#Pré-Requisitos">Pré-Requisitos</a> •
  <a href="#Como-Rodar">Como Rodar</a> •
+ <a href="#Como-Testar">Como Testar</a> •
 </p>
 
 # Descrição <a name="Descrição"></a>
@@ -76,4 +77,14 @@ __Caso tenha algum problema na instalação, tem a [documentação](https://docs
     ```
     flutter run
     ```
-4. Escolha o navegador que irá rodar a aplicação, digitando o valor correspondente.  
+4. Escolha o navegador que irá rodar a aplicação, digitando o valor correspondente.
+
+# Como Testar (via terminal) <a name="Como-Testar"></a>
+1. Gerar todos os códigos necessários:  
+    ```
+    flutter pub run build_runner build
+    ```
+2. Executar os testes:
+    ```
+    flutter test
+    ```
