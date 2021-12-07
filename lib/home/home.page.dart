@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                   activeColor: Colors.orange.shade900,
                   thumbColor: Colors.orange.shade900,
                   inactiveColor: Color.fromRGBO(160, 160, 160, 1),
-                  min: 0,
+                  min: 20,
                   max: 250,
                   onChanged: (value) {
                     setState(() {
@@ -80,11 +80,13 @@ class _HomePageState extends State<HomePage> {
                         radius: 20,
                         backgroundColor: Color.fromRGBO(140, 140, 140, 1),
                         child: IconButton(
-                          onPressed: () {
-                            setState(() {
-                              weightInKg -= 1;
-                            });
-                          },
+                          onPressed: weightInKg > 2
+                              ? () {
+                                  setState(() {
+                                    weightInKg -= 1;
+                                  });
+                                }
+                              : null,
                           icon: Icon(Icons.remove_rounded, color: Colors.white),
                         )),
                     SizedBox(width: 20),
