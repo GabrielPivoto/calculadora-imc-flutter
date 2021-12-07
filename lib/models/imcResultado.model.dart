@@ -23,7 +23,8 @@ class ImcResultado {
   ImcClassificacao get classificacao => _referencia.entries.firstWhere((faixa) {
         final min = faixa.value.first ?? -9999999;
         final max = faixa.value.last ?? 9999999;
-        if (this.imc >= min && this.imc <= max) return true;
+        final imc = double.parse(this.imc.toStringAsFixed(1));
+        if (imc >= min && imc <= max) return true;
         return false;
       }).key;
 }
