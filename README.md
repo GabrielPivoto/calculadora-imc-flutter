@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/GabrielPivoto/Calculadora_IMC/badge.svg?branch=master)](https://coveralls.io/github/GabrielPivoto/Calculadora_IMC?branch=master)
 [![Dart CI](https://github.com/GabrielPivoto/Calculadora_IMC/actions/workflows/dart.yml/badge.svg)](https://github.com/GabrielPivoto/Calculadora_IMC/actions/workflows/dart.yml)
 
 <h1 align="center">🧮 Calculadora de IMC</h1>
