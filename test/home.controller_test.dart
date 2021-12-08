@@ -21,8 +21,8 @@ void main() {
   });
 
   test("Classificação correta do IMC para valores de ponto flutuante", () {
-    when(mockController.calcular(any, any)).thenReturn(ImcResultado(30.55));
+    when(mockController.calcular(any, any)).thenReturn(ImcResultado(29.95));
     final resultado = mockController.calcular(70, 100);
-    expect(resultado.classificacao, ImcClassificacao.Obesidade_I);
+    expect(resultado.classificacao, ImcClassificacao.Sobrepeso);
   });
 }
