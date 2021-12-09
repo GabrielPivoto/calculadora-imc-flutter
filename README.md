@@ -14,7 +14,7 @@
 </p>
 
 <h4 align="center"> 
-	🚧  Status do Projeto 🚀 Em construção...  🚧
+	🚧  Status do Projeto 🚀 Concluído :white_check_mark:
 </h4>
 
 <p align="center">
